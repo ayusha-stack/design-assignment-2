@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+h1{
+    text-align: center;
+    color:blue;
+    font-size: 48px;
+}
+
+h2{
+    font-size: 32px;
+
+}
+img{
+    border: 2 px rgb(227, 40, 19);
+    border-radius: 5%;
+    display: block;
+    
+    
+}
+nav {
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+width: 50%;
+font-size: 30px;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  
+  padding: 10px;
+}
+
+nav .dropdown-menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+p{
+    font-size:18px ;
+    text-align: justify;
+    line-height: 1.5;
+}
+table {
+    border-collapse: collapse;
+    width:50%;
+}
+
+th,td{
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+ 
+ .into{
+    float:right;
+    padding-left:20px;
+    width:50%
+ }
+ .content{
+   overflow: auto;
+ }
+
+ .sub{
+    float:left;
+    padding-right: 50px;
+
+ }
+ .form-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 50px 0;
+  width:50%;
+}
+
+
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.footer-bottom {
+  background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  text-align: center;
+  width: 100%;
+  height:40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-container {
+    margin: 30px 0;
+  }
+}
