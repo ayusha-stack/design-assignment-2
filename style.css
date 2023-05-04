@@ -14,15 +14,17 @@ img{
     border: 2 px rgb(227, 40, 19);
     border-radius: 5%;
     display: block;
-    
-    
 }
+    
+
+
+
 nav {
 background-color: #0093E9;
 background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 width: 50%;
-font-size: 30px;
-  font-weight: 600;
+font-size: 20px;
+font-weight: 600;
 }
 
 nav ul {
@@ -40,7 +42,7 @@ nav li {
 
 nav a {
   display: block;
-  color: #fff;
+  color: black;
   padding: 10px;
   text-decoration: none;
 }
@@ -63,7 +65,7 @@ nav .dropdown-menu {
 }
 
 nav .dropdown-menu li a {
-  color: #fff;
+  color: black;
   text-decoration: none;
   display: block;
 }
